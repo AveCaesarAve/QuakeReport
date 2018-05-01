@@ -13,11 +13,6 @@ import java.util.ArrayList;
 
 public class EarthquakeAdapter extends ArrayAdapter<Earthquake>  {
 
-//    /**
-//     * Resource ID for the background color for this list of words
-//     */
-//    private int mColorResourceId;
-
     public EarthquakeAdapter(Activity context, ArrayList<Earthquake> earthquakes) {
         super(context, 0, earthquakes);
         }
